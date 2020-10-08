@@ -1,0 +1,10 @@
+CREATE DATABASE pernproduct;
+
+CREATE TABLE product(
+  id BIGSERIAL NOT NULL PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  price TEXT NOT NULL,
+  description VARCHAR(50) NOT NULL,
+
+
+);
