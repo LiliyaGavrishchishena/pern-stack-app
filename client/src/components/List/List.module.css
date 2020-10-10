@@ -1,0 +1,42 @@
+.list {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 300px;
+  padding: 10px;
+  text-align: justify;
+}
+.title,
+.price,
+.descr {
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f9ba69;
+}

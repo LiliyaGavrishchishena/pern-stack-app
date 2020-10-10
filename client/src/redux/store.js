@@ -4,9 +4,11 @@ import { createLogger } from 'redux-logger';
 import thunk from 'redux-thunk';
 
 import { productsReducer } from './products';
+import { modalReducer } from './modal';
 
 const rootReducer = combineReducers({
   products: productsReducer,
+  modal: modalReducer,
 });
 
 const logger = createLogger();
